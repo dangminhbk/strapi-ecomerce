@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/san-phams",
+      "handler": "san-pham.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/san-phams/count",
+      "handler": "san-pham.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/san-phams/:id",
+      "handler": "san-pham.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/san-phams",
+      "handler": "san-pham.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/san-phams/:id",
+      "handler": "san-pham.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/san-phams/:id",
+      "handler": "san-pham.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
